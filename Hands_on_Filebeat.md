@@ -29,7 +29,7 @@ PS C:\Program Files\Filebeat> .\install-service-filebeat.ps1
 Referência:
 https://www.elastic.co/guide/en/beats/filebeat/current/filebeat-installation.html
 
-## Habilitar o módule `system`
+## Habilitar o módulo `system`
 
     https://www.elastic.co/guide/en/beats/filebeat/current/filebeat-module-system.html
 

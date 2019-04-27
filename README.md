@@ -1,20 +1,28 @@
-# Elastic Stack Workshop
+# Workshop de introdução à Elastic Stack
 
-The workshop is a hands-on "Getting Started with Elastic Stack" for beginners.
+Esse é um workshop introdutório à Elastic Stack. A Elastic Stack possui, entre outros, os seguintes produtos:
 
-It is composed of an explanation, live demo of the installation and a hands on practice where the participants will install in their own machines.
+- Elasticsearch
+- Kibana
+- Logstash
+- Beats
+- APM
 
-## Prerequisite
 
-### Install 
+Teremos uma apresentação de como esses componentes se relacionam e quais casos de uso ele se aplicam. Além disso, teremos uma parte prática onde iremos instalar e configurar cada um desses componentes.
 
-* node.js - https://nodejs.org/en/download/
-* java - https://www.java.com/en/download/installed.jsp
+## Prá-requisitos
 
-### Download before the Workshop
+### Instalar
 
-* https://www.elastic.co/downloads/elasticsearch
-* https://www.elastic.co/downloads/kibana
-* https://www.elastic.co/downloads/beats/filebeat
-* https://www.elastic.co/downloads/beats/meatricbeat
-* https://www.elastic.co/downloads/apm
+- java - https://www.java.com/en/download/installed.jsp
+- node.js - https://nodejs.org/en/download/
+
+
+### Fazer o download prévio
+
+* https://www.elastic.co/downloads/past-releases/elasticsearch-6-7-1
+* https://www.elastic.co/downloads/past-releases/kibana-6-7-1
+* https://www.elastic.co/downloads/past-releases/filebeat-6-7-1
+* https://www.elastic.co/downloads/past-releases/metricbeat-6-7-1
+* https://www.elastic.co/downloads/past-releases/apm-server-6-7-1

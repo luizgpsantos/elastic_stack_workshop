@@ -1,14 +1,33 @@
-# Install Elasticsearch 
+# Instalar o Elasticsearch
 
-* Using the following page and the file you previously downloaded:
+## linux or mac:
 
-    https://www.elastic.co/guide/en/elastic-stack-get-started/current/get-started-elastic-stack.html#install-elasticsearch
+```
+tar -xzvf elasticsearch-6.7.1.tar.gz
+cd elasticsearch-6.7.1
+./bin/elasticsearch
+```
 
-* Make sure Elasticsearch is up and running:
+## windows
 
-    http://127.0.0.1:9200
+Extraia o arquivo `elasticsearch-6.7.1.zip` e em seguida execute os comandos abaixo a partir do terminal.
 
-Example of output: 
+```
+cd C:\Program Files\elasticsearch-6.7.1
+bin\elasticsearch.bat
+```
+
+Referência:
+https://www.elastic.co/guide/en/elastic-stack-get-started/current/get-started-elastic-stack.html#install-elasticsearch
+
+## Verifique
+
+O Elasticsearch, por padrão, utiliza a porta 9200. Para verificar se ele está em execução acesso o seguinte endereço a partir do seu browser:
+
+http://127.0.0.1:9200
+
+Resultado esperado:
+
 ```
 {
   "name" : "bPSmzCI",

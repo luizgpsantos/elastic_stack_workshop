@@ -60,7 +60,7 @@ PUT workshop/_doc/1
 - Indexar um documento no índice `my_logs`, deixar que o próprio elasticsearch crie o ID
 
 ```
-PUT my_logs/_doc
+POST my_logs/_doc
 {
     "timestamp" : "2019-04-27T13:00:00",
     "application" : "nginx"

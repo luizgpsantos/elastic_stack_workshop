@@ -1,32 +1,25 @@
-# Install Apm 
+# Instalar o APM
 
-* Open the setup instructions from your Kibana:
+- Abra as instruções de instalação diretamente no [Kibana](http://localhost:5601/app/kibana#/home/tutorial/apm).
 
-    http://localhost:5601/app/kibana#/home/tutorial/apm
+- Siga as instruções do seu sistema operacional
 
-* Follow the instructions for your OS
+- Faça o download do arquivo `index.js` e salve em uma pasta:
 
-* Download the index.js and save in a folder:
+    $ wget https://raw.githubusercontent.com/tamros/elastic_stack_workshop/master/index.js
 
-    https://github.com/tamros/elastic_stack_workshop/blob/master/index.js
+- Siga as instruções no Kibana para instalar o agente NodeJS
 
-* Add the instructions the Nodejs Agent in the file
-
-* Run in the terminal inside the folder: 
+- Inicie o servidor: 
 
     ```
     $npm init
-    ```
-    ```
     $npm install express --save
-    ```
-    ```
     $node index.js
     ```
 
-* Access the server:
+* Acesse a página principal:
     
     http://localhost:3000/	
 
-* Explore the Apm data sent by the application inside Kibana
-
+* Explore os dados do APM dentro do Kibana
